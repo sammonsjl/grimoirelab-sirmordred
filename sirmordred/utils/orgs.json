@@ -1,0 +1,13 @@
+{
+    "blacklist": [],
+    "organizations": {
+        "Liferay": [
+            {
+                "domain": "liferay.com",
+                "is_top": true
+            }
+        ]
+    },
+    "time": "2017-07-05 14:43:10.238201",
+    "uidentities": {}
+}

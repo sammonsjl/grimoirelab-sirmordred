@@ -327,3 +327,11 @@
   menu:
   - name: Overview
     panel: panels/json/gitter.json
+- name: Liferay
+  source: liferay
+  icon: default.png
+  index-patterns:
+  - panels/json/liferay-index-pattern.json
+  menu:
+  - name: Overview
+    panel: panels/json/liferay.json

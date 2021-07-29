@@ -479,6 +479,24 @@
       }
     ]
   },
+  "liferay": {
+    "raw": [
+      {
+        "alias": "liferay-raw"
+      }
+    ],
+    "enrich": [
+      {
+        "alias": "liferay"
+      },
+      {
+        "alias": "affiliations"
+      },
+      {
+        "alias": "all_enriched"
+      }
+    ]
+  },
   "mattermost": {
     "raw": [
       {
