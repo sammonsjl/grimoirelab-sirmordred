@@ -55,6 +55,8 @@ ADD https://raw.githubusercontent.com/chaoss/grimoirelab-sirmordred/master/alias
 RUN chmod 444 ${DEPLOY_USER_DIR}/aliases.json
 ADD https://raw.githubusercontent.com/chaoss/grimoirelab-sirmordred/master/menu.yaml ${DEPLOY_USER_DIR}/menu.yaml
 RUN chmod 444 ${DEPLOY_USER_DIR}/menu.yaml
+ADD https://raw.githubusercontent.com/sammonsjl/grimoirelab/liferay/repos.json ${DEPLOY_USER_DIR}/repos.json
+RUN chmod 444 ${DEPLOY_USER_DIR}/repos.json
 
 ADD stage ${DEPLOY_USER_DIR}/stage
 RUN chmod 755 ${DEPLOY_USER_DIR}/stage
