@@ -45,20 +45,6 @@
     panel: panels/json/github_pull_requests_timing.json
   - name: Efficiency
     panel: panels/json/github_pull_requests_efficiency.json
-- name: GitHub Issues
-  source: github
-  icon: default.png
-  index-patterns:
-  - panels/json/github_issues-index-pattern.json
-  menu:
-  - name: Overview
-    panel: panels/json/github_issues.json
-  - name: Backlog
-    panel: panels/json/github_issues_backlog.json
-  - name: Timing
-    panel: panels/json/github_issues_timing.json
-  - name: Efficiency
-    panel: panels/json/github_issues_efficiency.json
 - name: Phabricator
   source: phabricator
   icon: default.png
