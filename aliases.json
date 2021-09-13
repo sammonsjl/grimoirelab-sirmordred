@@ -314,6 +314,18 @@
       }
     ]
   },
+  "github_releases": {
+    "raw": [
+      {
+        "alias": "github_releases-raw"
+      }
+    ],
+    "enrich": [
+      {
+        "alias": "github-releases"
+      }
+    ]
+  },
   "gitlab:issue": {
     "raw": [
       {

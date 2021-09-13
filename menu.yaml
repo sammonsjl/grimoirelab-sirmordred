@@ -321,3 +321,11 @@
   menu:
   - name: Overview
     panel: panels/json/liferay.json
+- name: GitHub Downloads
+  source: github_releases
+  icon: default.png
+  index-patterns:
+  - panels/json/github_releases-index-pattern.json
+  menu:
+  - name: Overview
+    panel: panels/json/github_releases.json
