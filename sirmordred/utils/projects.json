@@ -1,7 +1,7 @@
 {
   "Liferay Portal": {
     "liferay": [
-      "http://liferay.local:8080"
+      "https://liferay.dev"
     ],
     "stackexchange": [
       "http://stackoverflow.com/questions/tagged/liferay"
